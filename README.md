@@ -15,3 +15,5 @@
 5、[“胖数据库，瘦中台”：超融合数据库让工程师做更有意义的事](https://mp.weixin.qq.com/s/pplb4IATD5waFpVd8BThfg)
 
 6、[mxkv自定义数据类型](https://mp.weixin.qq.com/s/N2sOtsP4nsM3mJ-3XuHZEg)
+
+7、[图文解读MatrixDB自研存储引擎](https://mp.weixin.qq.com/s/NPkeEbLEuicTGl_UWaeOsg)
