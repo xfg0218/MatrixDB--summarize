@@ -6,8 +6,6 @@
 
 1、[MatrixDB 4.0发布会实录](https://mp.weixin.qq.com/s/jx8PdZ8HgdkhOJ4oG14oLg)
 
-
-
 2、[MatrixDB 4.1发布--加字段不再需要改表](https://mp.weixin.qq.com/s/xu5S0mg-Ww6BPtjg5oXdPg)
 
 | 序号 | 新特性 | 说明 | 
@@ -25,6 +23,14 @@
 | 3 | 冷热分级转换支持归并压缩 | 为方便用户在分区表做热转冷的数据转换，可以将多个分区表合并到一起。一来能降低分区管理的压力，也利于DBA进行维护。 |
 | 4 | 并行备份恢复“工具”首度公开亮相 | MatrixDB隆重推出mxbackup和mxrestore两大工具，相比继承自PostgreSQL的pg_dump和pg_restore，支持并行处理，备份恢复效率更高。 |
 
+3.1 [5分钟带你了解MatrixDB 4.2新特性 — UPSERT](https://mp.weixin.qq.com/s/82pwqgne9J5sQGi9hZQPqw)
+
+| 序号 | 定义 | 说明 | 
+|:----:|:----:|:----:|
+| 1 | 什么是UPSERT? | UPSERT 就是 UPDATE 和 INSERT 的结合。实现一条SQL内自动插入或者更新：如果记录不存在则插入，如果记录存在则更新。 |
+| 2 | UPSERT的使用方法 | 为了数据库能够使用UPSERT功能，记得要在表的“设备id+时间戳”上创建UNIQUE约束。 |
+| 3 | 如何使用UPSERT语义的SQL方式？ | 如何通过直接执行SQL语句的方式进行UPSERT，对于使用libpq或JDBC等来连接数据库的用户，可以直接参考如下SQL语法来操作。 |
+| 4 | 如何使用UPSERT语义的MatrixGate方式？ | MatrixGate作为MatrixDB高性能数据接入工具，在4.2版本中也加入了对UPSERT语义的支持，所以在生产环境中，更加推荐用户选择使用MatrixGate方式接入，性能可以提升百倍。 |
 
 
 # 学习资料汇总
