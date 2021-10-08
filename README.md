@@ -49,3 +49,9 @@
 
 7、[图文解读MatrixDB自研存储引擎](https://mp.weixin.qq.com/s/NPkeEbLEuicTGl_UWaeOsg)
 
+8、[四维纵横携手映云科技，共筑物联网新生态！](https://mp.weixin.qq.com/s/xO1p-HF4mV-p4pIlZ2NIwA)
+
+9、[赋能车联网｜MatrixDB 做到实时采集、实时分析，“一站式” 数据平台！](https://mp.weixin.qq.com/s/1BhqER9hONHVd17rnzOTAQ)
+
+10、[麒麟软件与四维纵横达成战略合作 -- 携手共建物联网生态](https://mp.weixin.qq.com/s/yzC0jbgwOD8n7uBx27jAOg)
+
